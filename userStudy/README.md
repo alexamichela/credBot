@@ -31,6 +31,7 @@ Mean(After) = 2.9
 Paired Wilcoxon Test p-value = 0.1489
 
 As the boxplot and means of users' credibility rankings show, there seems to be an increase in perceived credibility of BBC Focus after using CredBot. However, the paired Wilcoxon test's p-value says we do not have enough evidence to say that there is a significant difference.
+
 ![boxplotChanty](https://github.com/alexamichela/credBot/assets/111940928/f84ed7b9-14c3-4447-82b6-f5965780b441)
 
 Mean(Before) = 1.65
@@ -49,6 +50,7 @@ Mean(After) = 2.9
 Paired Wilcoxon Test p-value = 1
 
 There is no recognizable difference in users' credibility rankings of CDC after using CredBot, which might be attributed to the users' high credibility of CDC before CredBot. It would not be very possible for users' perceived credibility of CDC to improve, considering their initial rankings.
+
 ![boxplotNaturalNews](https://github.com/alexamichela/credBot/assets/111940928/a4396f54-a7a4-4a8d-a0be-cbe999a0c424)
 
 Mean(Before) = 1.25
