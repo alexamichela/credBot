@@ -12,7 +12,8 @@ During a 45 minute study session with a researcher, users visited two sets of fo
 As a working prototype and in consideration of ChatGPT 3.5’s limitations, CredBot was not able to access certain information such as relatively obscure author credentials. This limitation necessitated hardcoding for inaccessible information and overall credibility rating in our prompt engineering in order to produce consistent results and responses for participants. 
 
 ## Thematic analysis 
-![thematic map] 
+![thematic map] ![Qualitative analysis](https://github.com/alexamichela/credBot/assets/106221079/71922ef1-9877-4a3d-bbfb-15a437905205)
+
 Based on observed interactions and surveys, we identified two major areas of want users have for CredBot: education and assistance (Figure 7). As an on-demand education tool, upon CredBot’s initial credibility rating users' subsequent prompts frequently indicated a want for CredBot to define specific signal meanings and elaborate on the signal’s contextual application to a given webpage, and or the signals’ relevance to website credibility. Given CredBot’s responses, participants would express higher trust in both the chatbot’s credibility rating, as well as confidence in their own initial impressions of a given domain if it aligned with CredBot’s. 
 
 “[CredBot] solidified my opinion of this site as less credible. It gave a few more reasons to be skeptical of the site than I had thought of before interacting with credbot” (Participant 16). 
