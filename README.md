@@ -52,11 +52,19 @@ Future work will focus on enhancing CredBot's user interface, making it more aes
 
 ## References
 [1] Ace Wang, Liz Maylin De Jesus Sanchez, Anya Wintner, Yuanxin Zhu, and Eni Mustafaraj. 2023. Assessing Google Search’s New Features in Supporting Credibility judgments of Unknown Websites. In Proceedings of the 2023 Conference on Human Information Interaction and Retrieval (CHIIR '23). Association for Computing Machinery, New York, NY, USA, 303–307. https://doi-org.ezproxy.wellesley.edu/10.1145/3576840.3578277
+
 [2] Azeem Azhar. 2023. Azeem on AI: Are Large Language Models the Future of the Web? Podcast. (24 May 2023. Retrieved October 15, 2023 from https://hbr.org/podcast/2023/05/azeem-on-ai-are-large-language-models-the-future-of-the-web 
+
 [3] Bing. [n. d.]. Bing Chat. https://www.microsoft.com/en-us/edge/features/bing-chat?form=MA13FJ
+
 [4] Demetris Paschalides, Alexandros Kornilakis, Chrysovalantis Christodoulou, Rafael Andreou, George Pallis, Marios Dikaiakos, and Evangelos Markatos. 2019. Check-It: A plugin for Detecting and Reducing the Spread of Fake News and Misinformation on the Web. In IEEE/WIC/ACM International Conference on Web Intelligence (WI '19). Association for Computing Machinery, New York, NY, USA, 298–302. https://doi-org.ezproxy.wellesley.edu/10.1145/3350546.3352534 
+
 [5] Farnaz Jahanbakhsh, Yannis Katsis, Dakuo Wang, Lucian Popa, and Michael Muller. 2023. Exploring the Use of Personalized AI for Identifying Misinformation on Social Media. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23). Association for Computing Machinery, New York, NY, USA, Article 105, 1–27. https://doi-org.ezproxy.wellesley.edu/10.1145/3544548.3581219
+
 [6] NewsGuard Ratings. [n. d.]. NewsGuard. https://www.newsguardtech.com/solutions/newsguard/
+
 [7] Pavel Smutny and Petra Schreiberova. Chatbots for learning: A Review of educational chatbots for the Facebook Messenger. Computers & Education 151 (2020), 103862. https://doi.org/10.1016/j.compedu.2020.103862
+
 [8] The Mind Online. 2019. (May 2019). Fake News: Finding It, Fighting It. Podcast. Retrieved October 15, 2023 from https://open.spotify.com/episode/5cAKhM3YlJryRUxLBL3lvS?si=536a97ffc60a43fa
+
 [9] The Radical AI Podcast. 2020. Emoji Design, White Accountability, and the Ethical Future of Chatbots with Miriam Sweeney. Podcast. (June 2020). Retrieved October 15, 2023 from https://open.spotify.com/episode/48DjWEX2tf2nIPvvWZvtAC?si=9632e3cfd5034808
