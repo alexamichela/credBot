@@ -1,0 +1,324 @@
+#chatbot-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 10000;
+}
+
+/* this is the container for the credibility warning!!*/
+.message-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.user-message, .bot-message {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.user-message {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+}
+
+.bot-message {
+    background-color: #f0f0f0;
+    align-self: flex-start;
+}
+
+.low-message {
+    border: 2px solid #ff3860; /* red border for low credibility */
+    background-color: #ff3860;
+}
+
+.medium-message {
+    border: 2px solid #ffdd57; /* yellow border for medium credibility */
+    background-color: #ffdd57;
+}
+
+.high-message {
+    border: 2px solid white; /* green border for high credibility */
+    background-color: white;
+}
+
+.sensitive-info-warning {
+    border: 2px solid #ADD8E6;
+    background-color: #ADD8E6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.warning-message {
+    
+    background-color: #ff3860; /* red background for warning messages */
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: black;
+}
+
+#input-area {
+    display: block; /* Changed from flex to block to use float for alignment */
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+/* #input-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+} */
+
+#userInput {
+    width: 80%; /* Adjusted width */
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: left; /* Float left to align with the send button */
+    margin-right: 0; /* Adjusted space between the input field and the send button */
+}
+/* 
+#userInput {
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Add space between the input field and the send button 
+} */
+
+#sendButton {
+    float: right; /* Float right for the send button */
+    padding: 5px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px; /* Add space between the input field and the send button */
+    border-color: gray;
+}
+
+#seeMoreButton {
+    float: right; /* Align the button to the right */
+    margin: 0;
+    padding: 5px 10px;
+    background-color: black; /* Darker background for the button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor indicates a clickable button */
+    font-size: 0.9em; /* Slightly smaller font size */
+    outline: none; /* Remove outline to prevent focus ring */
+    margin-left: 10px; /* Space it a bit from the message text */
+}
+
+/* #sendButton {
+    padding: 5px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+} */
+
+/* Clear fix for floated children in #input-area */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+/* Style for the "See More" button */
+
+/*
+#seeMoreButton {
+    padding: 5px 10px;
+    background-color: #555; /* Darker background for the button 
+    color: white; /* White text color 
+    border: none; /* No border 
+    border-radius: 4px; /* Rounded corners 
+    cursor: pointer; /* Cursor indicates a clickable button 
+    margin-left: 10px; /* Space it a bit from the warning message 
+    font-size: 0.9em; /* Slightly smaller font size 
+    outline: none; /* Remove outline to prevent focus ring 
+}
+
+*/
+
+
+/* Clear float */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+/* Styles for credibility messages */
+.low-credibility .low-message,
+.medium-credibility .medium-message,
+.high-credibility .high-message {
+    margin: 0; /* Remove margin as it's now inside flex container */
+    flex-grow: 1; /* Allow the message to fill the space */
+    text-align: left; /* Align text to the left */
+    color: black
+}
+
+.sensitive-info-warning{
+    margin: 0; /* Remove margin as it's now inside flex container */
+    justify-content: space-evenly;
+    flex-grow: 1; /* Allow the message to fill the space */
+    text-align: left; /* Align text to the left */
+    color: black
+
+}
+
+.low-credibility .low-message {
+    background-color: #ff3860; /* Red background for low credibility */
+    color: black;
+}
+
+.medium-credibility .medium-message {
+    background-color: #ffdd57; /* Yellow background for medium credibility */
+    color: black; /* Black text for better readability on yellow */
+}
+
+.high-credibility .high-message {
+    background-color: white; /* Green background for high credibility */
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #chatbot-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 10000;
+}
+
+.user-message, .bot-message {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.user-message {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+}
+
+.bot-message {
+    background-color: #f0f0f0;
+    align-self: flex-start;
+}
+
+
+
+
+
+
+#chatbot-container.low-credibility {
+    border: 2px solid #ff3860; /* red border for low credibility 
+}
+    */
+
+
+    /*
+#chatbot-container.medium-credibility {
+    border: 2px solid #ffdd57; 
+}
+
+#chatbot-container.high-credibility {
+    border: 2px solid #23d160; 
+}
+
+.warning-message {
+    color: white;
+    background-color: #ff3860; 
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+} */
+
+/* Rest of your CSS */
+
+
+
+
+/* Additions to the chatbot.css */
+
+/* #input-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+} */
+/* 
+#userInput, #sendButton {
+    flex: 1;
+    margin: 2px;
+}
+
+#userInput {
+    flex-grow: 2; /* Input should take more space 
+}
+    */
+ 
+/* 
+#sendButton {
+    flex-shrink: 0;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+} */
+
+/* Clear float */
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+

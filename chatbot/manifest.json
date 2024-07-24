@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Chatbot Extension Adding Sensitive Info Warning",
+    "version": "1.3.0",
+    "description": "A chatbot extension.",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "scripting",
+      "https://api.openai.com/"
+    ],
+    "host_permissions": [
+      "https://api.openai.com/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content_script3.js", "chatbot4.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["chatbot.css"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  
